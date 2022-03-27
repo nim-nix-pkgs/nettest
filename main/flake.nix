@@ -11,6 +11,7 @@
   inputs.src-netTest-main.ref   = "refs/heads/main";
   inputs.src-netTest-main.owner = "blmvxer";
   inputs.src-netTest-main.repo  = "netTest";
+  inputs.src-netTest-main.dir   = "";
   inputs.src-netTest-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
